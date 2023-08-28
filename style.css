@@ -1,0 +1,22 @@
+.header{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fix, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item{
+    border: 1px solid black;
+    padding: 1rem;
+}
+.footer{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
